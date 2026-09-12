@@ -1,0 +1,8 @@
+# OneDrive / Windows
+desktop.ini
+Thumbs.db
+*.tmp
+
+# Editor
+.vscode/
+.DS_Store
