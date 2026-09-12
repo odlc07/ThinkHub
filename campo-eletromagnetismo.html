@@ -28,21 +28,7 @@
   --page-dim:var(--dim);
   --radius:10px;
 }
-:root:not([data-theme="light"]){ color-scheme:dark; }
-@media (prefers-color-scheme: light){
-  :root:not([data-theme="dark"]){
-    --page-bg:#EDF0F7;
-    --page-text:#111728;
-    --page-dim:#4C5673;
-    --rule:rgba(30,45,90,.16);
-    --rule-soft:rgba(30,45,90,.09);
-    color-scheme:light;
-  }
-}
-:root[data-theme="light"]{
-  --page-bg:#EDF0F7; --page-text:#111728; --page-dim:#4C5673;
-  --rule:rgba(30,45,90,.16); --rule-soft:rgba(30,45,90,.09); color-scheme:light;
-}
+:root{ color-scheme:dark; }
 
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
